@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@capacitor/app": "4.1.1",
@@ -39,12 +40,9 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^9.8.0",
+    "husky": "^8.0.3",
     "jest": "^27.3.1",
-    "lint-staged": "^11.1.2",
     "prettier": "^2.4.1"
   },
-  "description": "An Ionic project",
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  }
+  "description": "An Ionic project"
 }
