@@ -1,0 +1,7 @@
+{
+  "name": "ionic-vue-eslint-prettier-starter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
